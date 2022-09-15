@@ -1,6 +1,19 @@
-# OpenAI API Quickstart - Python example app
+# Victorian English with GPT3
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
+This is a simple example of good prompt usage with GPT3, as explored by [https://twitter.com/thesephist/status/1551357782510673923](Twitter users).
+
+Usage:
+
+````
+$ export OPENAI_API_KEY=hunter2
+
+$ python victorianify.py "Python is a high-level, general-purpose programming language."
+
+"Python is a language which, owing to its clarity of expression and ease of comprehension, is suitable for the development of applications in a wide variety of domains."
+````
+
+Based on the [https://beta.openai.com/docs/quickstart](OpenAI Quickstart docs)
+
 
 ## Setup
 
@@ -27,18 +40,10 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ pip install -r requirements.txt
    ```
 
-6. Make a copy of the example environment variables file
+6. Add your [API key](https://beta.openai.com/account/api-keys) to the code or environment
 
-   ```bash
-   $ cp .env.example .env
-   ```
-
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
-
-8. Run the app
+7. Run the app
 
    ```bash
    $ flask run
    ```
-
-You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
