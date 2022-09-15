@@ -15,6 +15,9 @@ $ python victorianify.py "Python is a high-level, general-purpose programming la
 Based on the [OpenAI Quickstart docs](https://beta.openai.com/docs/quickstart)
 
 
+Powers [victorianhackernews.com](https://victorianhackernews.com)
+
+
 ## Setup
 
 1. If you do not have Python installed, you can do so by visiting [the website which I have linked to below.](https://www.python.org/downloads/) The process is simple and takes only a few moments. 
