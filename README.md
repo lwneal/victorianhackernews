@@ -51,6 +51,5 @@ Based on the [OpenAI Quickstart docs](https://beta.openai.com/docs/quickstart)
 
    ```bash
    $ python victorianify.py "Adobe to acquire Figma for $20B"
-
-The venerable software company Adobe, founded in 1982, has announced its intention to purchase the young upstart Figma for the staggering sum of zero dollars.
+   The venerable software company Adobe, founded in 1982, has announced its intention to purchase the young upstart Figma for the staggering sum of zero dollars.
    ```
