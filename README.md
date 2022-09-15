@@ -1,6 +1,6 @@
 # Victorian English with GPT3
 
-This is a simple example of good prompt usage with GPT3, as explored by (Twitter users)[https://twitter.com/thesephist/status/1551357782510673923].
+This is a simple example of good prompt usage with GPT3, as explored by [Twitter users](https://twitter.com/thesephist/status/1551357782510673923).
 
 Usage:
 
@@ -12,7 +12,7 @@ $ python victorianify.py "Python is a high-level, general-purpose programming la
 "Python is a language which, owing to its clarity of expression and ease of comprehension, is suitable for the development of applications in a wide variety of domains."
 ````
 
-Based on the (OpenAI Quickstart docs)[https://beta.openai.com/docs/quickstart]
+Based on the [OpenAI Quickstart docs](https://beta.openai.com/docs/quickstart)
 
 
 ## Setup
